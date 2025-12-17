@@ -1,0 +1,2 @@
+# Power_management
+以STM32F042为主控，INA226为ADC的功率控制模块
