@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "ina226.h": "c",
+        "main.h": "c",
+        "stm32f0xx_hal.h": "c",
+        "task.h": "c",
+        "cmsis_os.h": "c",
+        "i2c.h": "c",
+        "gpio.h": "c",
+        "usertasks.h": "c",
+        "cmsis_os2.h": "c"
+    }
+}
