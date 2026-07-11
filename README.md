@@ -27,18 +27,18 @@
 
 这里推荐使用意法半导体官方提供的工具**STM32CubeProgrammer**，下载地址是[STM32CubeProg | Software - STMicroelectronics](https://www.st.com/en/development-tools/stm32cubeprog.html)
 
-安装成功后，启动软件，选择JLink连接，点击序列号框右侧的刷新检测JLink，点击右上角连接JLink
+安装成功后，启动软件，选择 JLink 连接，点击序列号框右侧的刷新按钮检测 JLink，然后点击右上角连接 JLink。
 
-![image-20251217212722199](F:\Documents\GitHub\Power_management\photo\image-20251217212722199.png)
+![连接JLink](./photo/image-20251217212722199.png)
 
-然后点击左侧栏的”OB“选项
+然后点击左侧栏的“OB”选项。
 
-![image-20251217212820150](F:\Documents\GitHub\Power_management\photo\image-20251217212820150.png)
+![进入OB选项](./photo/image-20251217212820150.png)
 
-在“User Configuration”里找到最下面的“BOOT_SEL“，把它取消勾选
+在“User Configuration”中找到最下面的“BOOT_SEL”，将其取消勾选。
 
-![image-20251217213016839](F:\Documents\GitHub\Power_management\photo\image-20251217213016839.png)
+![取消勾选BOOT\_SEL](./photo/image-20251217213016839.png)
 
-确保nBOOT0和nBOOT1已经被勾选
+确保“nBOOT0”和“nBOOT1”已经勾选。
 
-![image-20251217213055850](F:\Documents\GitHub\Power_management\photo\image-20251217213055850.png)
+![勾选nBOOT0和nBOOT1](./photo/image-20251217213055850.png)
